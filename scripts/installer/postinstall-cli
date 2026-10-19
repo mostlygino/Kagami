@@ -1,0 +1,8 @@
+#!/bin/sh
+# Links the kagami command line tool into /usr/local/bin, so Terminal and MCP clients can run it.
+# The link points into the app, so it follows the app through updates.
+target="/Applications/Kagami.app/Contents/Helpers/kagami"
+[ -x "$target" ] || exit 0
+/bin/mkdir -p /usr/local/bin
+/bin/ln -sf "$target" /usr/local/bin/kagami
+exit 0

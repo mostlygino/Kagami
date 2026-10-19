@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea that would make Kagami more useful.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The job, not the solution. What is hard or slow today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you imagine it working. Wireshark features or other tools you would point to are welcome.

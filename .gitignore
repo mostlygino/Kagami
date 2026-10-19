@@ -1,0 +1,8 @@
+.build/
+build/
+*.pcapng
+.DS_Store
+# Demo/demo.pcapng is synthetic (scripts/make-demo-capture.sh): loopback and *.kagami.test only.
+!Demo/demo.pcapng
+graphify-out/
+.impeccable/

@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; --ink: #121719; --soft: #4b5658; --tint: #127F6E; --bronze: #A2672B; --rule: #DDE3E1; --card: #F6F8F7; }
+@media (prefers-color-scheme: dark) { :root { --ink: #E9EEEC; --soft: #A3AEAB; --tint: #3FB8A6; --bronze: #D6A35E; --rule: #263034; --card: #171E21; } }
+body { font: 13px/1.5 -apple-system, "SF Pro Text", sans-serif; color: var(--ink); margin: 0; padding: 4px 6px; }
+h1 { font: 600 20px/1.25 -apple-system, "SF Pro Display", sans-serif; margin: 0 0 4px; letter-spacing: 0.1px; }
+.lede { color: var(--soft); margin: 0 0 16px; }
+h2 { font-size: 13px; font-weight: 600; margin: 18px 0 6px; }
+p, li { margin: 0 0 6px; }
+ul { padding-left: 18px; margin: 0; }
+code { font: 12px "SF Mono", ui-monospace, monospace; background: var(--card); border: 1px solid var(--rule); border-radius: 5px; padding: 1px 5px; }
+.card { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--tint); border-radius: 8px; padding: 10px 12px; margin: 12px 0; }
+.mark { color: var(--bronze); font-weight: 600; }
+a { color: var(--tint); text-decoration: none; }
+.kbd { font: 600 11.5px -apple-system, sans-serif; border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 5px; padding: 0 5px; }

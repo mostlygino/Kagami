@@ -1,0 +1,40 @@
+{
+  "name": "Kagami",
+  "eyebrow": "A mirror for the wire",
+  "tagline": "Wireshark's dissectors, in a window that feels like the Mac.",
+  "footer": "HINOKI · CAST BRONZE · VERDIGRIS",
+  "features": [
+    [
+      "Catch it live",
+      "Capture without root, with BPF and display filters."
+    ],
+    [
+      "Read every layer",
+      "An RFC anatomy: bit ruler, fields and hex, linked."
+    ],
+    [
+      "Hand it to agents",
+      "A JSON CLI and an MCP server on the same core."
+    ]
+  ],
+  "material": {
+    "kind": "lacquer",
+    "light": [
+      "#e8dfcf",
+      "#fbf7ef",
+      "#2a231d",
+      "#6a5c4d",
+      "#c4b399",
+      "#8e5f27"
+    ],
+    "dark": [
+      "#11100e",
+      "#26211b",
+      "#f5eee3",
+      "#c3b6a4",
+      "#5b4e3f",
+      "#5cc6a8"
+    ]
+  },
+  "icon": "kagami-icon.png"
+}
