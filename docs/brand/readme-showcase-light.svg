@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="256" viewBox="0 0 1280 256" role="img" aria-label="Catch it live: Capture without root, with BPF and display filters.; Read every layer: An RFC anatomy: bit ruler, fields and hex, linked.; Hand it to agents: A JSON CLI and an MCP server on the same core.">
+<defs>
+ <linearGradient id="material" x1="0" y1="0" x2="0.65" y2="1"><stop stop-color="#fbf7ef"/><stop offset="1" stop-color="#e8dfcf"/></linearGradient>
+ <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.45" stop-color="#c4b399" stop-opacity="0.2"/><stop offset="1" stop-color="#c4b399" stop-opacity="0.8"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1H7M1 0V7" stroke="#c4b399" stroke-width="0.7"/><path d="M4 3h2M3 5h1" stroke="#c4b399" stroke-width="0.6"/></pattern>
+ <filter id="lift" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.2"/></filter>
+</defs>
+<rect x="1" y="1" width="1278" height="254" rx="24" fill="url(#material)" stroke="#c4b399"/>
+<path d="M26 13H1254" stroke="#8e5f27" opacity="0.55"/><path d="M26 243H1254" stroke="#8e5f27" opacity="0.25"/>
+<rect x="3" y="3" width="1274" height="250" rx="22" fill="none" stroke="url(#rim)"/>
+<rect x="44" y="24" width="376" height="208" rx="14" fill="#fbf7ef" stroke="#c4b399"/>
+ <path d="M62 27H402" stroke="#fff" opacity="0.3"/>
+ <text x="66" y="61" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="2" fill="#8e5f27">01</text>
+ <text x="66" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="650" fill="#2a231d">Catch it live</text>
+ <text x="66" y="149" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">Capture without root, with</text><text x="66" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">BPF and display filters.</text><rect x="452" y="24" width="376" height="208" rx="14" fill="#fbf7ef" stroke="#c4b399"/>
+ <path d="M470 27H810" stroke="#fff" opacity="0.3"/>
+ <text x="474" y="61" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="2" fill="#8e5f27">02</text>
+ <text x="474" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="650" fill="#2a231d">Read every layer</text>
+ <text x="474" y="149" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">An RFC anatomy: bit ruler,</text><text x="474" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">fields and hex, linked.</text><rect x="860" y="24" width="376" height="208" rx="14" fill="#fbf7ef" stroke="#c4b399"/>
+ <path d="M878 27H1218" stroke="#fff" opacity="0.3"/>
+ <text x="882" y="61" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="2" fill="#8e5f27">03</text>
+ <text x="882" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="650" fill="#2a231d">Hand it to agents</text>
+ <text x="882" y="149" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">A JSON CLI and an MCP server</text><text x="882" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="400" fill="#6a5c4d">on the same core.</text>
+</svg>

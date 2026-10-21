@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/mostlygino/Kagami/discussions
+    about: Ask how to do something, or share what you built with Kagami.
+  - name: Report a security vulnerability
+    url: https://github.com/mostlygino/Kagami/security/advisories/new
+    about: Please report vulnerabilities privately, not as an issue.

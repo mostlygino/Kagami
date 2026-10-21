@@ -1,0 +1,45 @@
+{
+ "name": "Kagami",
+ "icon": "kagami-icon.png",
+ "accent": "#2F8F7A",
+ "line": [
+  "鏡",
+  "かがみ",
+  "mirror"
+ ],
+ "sheet": "The back of a Japanese bronze mirror set in black urushi lacquer. Its relief is the wire: a carrier wave across the face, rings of cast bronze round the knob. Verdigris settles in the grooves, and a purple silk cord runs through the knob, as it always did.",
+ "swatches": [
+  [
+   "bronze",
+   "#B48E59"
+  ],
+  [
+   "rokushō",
+   "#405B53"
+  ],
+  [
+   "urushi",
+   "#111014"
+  ],
+  [
+   "murasaki",
+   "#5B3461"
+  ]
+ ],
+ "sheet_out": "kagami-brand-sheet.png",
+ "lockup_line": "鏡 · mirror",
+ "lockups": [
+  [
+   "kagami-lockup.png",
+   "#F6F3EE",
+   "#111111",
+   "#7A7672"
+  ],
+  [
+   "kagami-lockup-dark.png",
+   "#121014",
+   "#F4F1EA",
+   "#8E8A86"
+  ]
+ ]
+}

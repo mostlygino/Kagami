@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in Kagami does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please **do not attach real captures**: they hold other people's traffic.
+        A screenshot, the steps, or a capture you made on purpose (for example with `curl` to example.com) is enough.
+        Security issues go through **Security > Report a vulnerability**, not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a capture with …
+        2. Select …
+        3. …
+  - type: input
+    id: about
+    attributes:
+      label: Version details
+      description: Kagami > About Kagami > Copy puts the Kagami, Wireshark and macOS versions on the clipboard.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Recording, Opening files, Packet table, Anatomy / Fields / Bytes, Overview, Flows, Follow Stream, Diff, Endpoints, Command palette, CLI, MCP server, Updater / install, Other]

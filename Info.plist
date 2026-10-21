@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Kagami</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>pcap</string>
+				<string>pcapng</string>
+				<string>cap</string>
+				<string>dmp</string>
+				<string>ntar</string>
+				<string>erf</string>
+				<string>snoop</string>
+				<string>pklg</string>
+				<string>btsnoop</string>
+				<string>trc</string>
+				<string>5vw</string>
+				<string>enc</string>
+				<string>zst</string>
+				<string>lz4</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Packet capture</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>nfcapd</string>
+				<string>netflow</string>
+				<string>nfdump</string>
+				<string>csv</string>
+				<string>tsv</string>
+				<string>json</string>
+				<string>jsonl</string>
+				<string>ndjson</string>
+				<string>log</string>
+				<string>gz</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Flow export</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Any file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>None</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.data</string>
+				<string>public.folder</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Kagami</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>dev.mostlygino.kagami</string>
+	<key>CFBundleName</key>
+	<string>Kagami</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>KagamiBuildDate</key>
+	<string></string>
+	<key>KagamiChannel</key>
+	<string>Development</string>
+	<key>KagamiCommit</key>
+	<string>unknown</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>NSAccentColorName</key>
+	<string>AccentColor</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Gino de Graaff. Code under AGPL-3.0-or-later; name and icon reserved.</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+# Keep GitHub's language bar about the code: generated pages and demo data are not "HTML" or "Text".
+scripts/installer/license.html linguist-generated
+scripts/installer/*.html linguist-documentation
+docs/** linguist-documentation
+Demo/** linguist-vendored
+*.pcap binary
+*.pcapng binary
+*.nfcapd binary
+*.icns binary
