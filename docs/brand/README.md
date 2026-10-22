@@ -44,7 +44,14 @@ Detail by size: 256 px and up get everything (cord, wave, comb ruler, sixteen pe
 
 ## How it is made
 
-**Since 2026-10-21 the app icon is a generated image**, not this renderer's output: the Kyōhai mirror back from [PROMPT.md](PROMPT.md), rendered with an image generator to the standard of Onmitsu and Kuro. `kagami-icon-master.png` is the original, `kagami-icon.png` the same object fitted to an 860 px body on a 1024 canvas, which feeds `Resources/AppIcon.icns`. The renderer below still makes the option sheets; the brand sheet and both lockups come from `brand_sheet.py` (text and colours in `brand-sheet.json`, laid out like the renderer's sheet, drawn by headless Chromium).
+**Since 2026-10-21 the app icon is a generated image**, not this renderer's output: the Kyōhai mirror back from [PROMPT.md](PROMPT.md), rendered with an image generator to the standard of Onmitsu and Kuro. `kagami-icon-master.png` is the original, `kagami-icon.png` the object cut out on a 1024 canvas. `scripts/fit-icon.swift` fits that onto the macOS icon grid (an 824 px squircle 100 px in, with the system shadow) for `Resources/AppIcon.icns`. Fitted to 860 px, as it was until 2026-10-22, macOS 26 shrank the icon onto a grey plate.
+
+```sh
+swiftc -O scripts/fit-icon.swift -o /tmp/fit-icon
+/tmp/fit-icon docs/brand/kagami-icon.png /tmp/AppIcon.iconset
+iconutil -c icns /tmp/AppIcon.iconset -o Resources/AppIcon.icns
+```
+ The renderer below still makes the option sheets; the brand sheet and both lockups come from `brand_sheet.py` (text and colours in `brand-sheet.json`, laid out like the renderer's sheet, drawn by headless Chromium).
 
 `scripts/make-icon.swift` is a small height-field renderer (about 2 s for the whole icon set), the same approach as Shīru's icon. Every surface is a height field lit by one window high to the left. Metal, lacquer and water reflect an analytic room (the shoji window, a dim wall, a paper lamp low on the right), so the reflection bends with the surface by itself. Nothing is drawn as a gradient. No SF Symbols are used, and no font is shipped: 鏡 is rasterised from the Hiragino Mincho outline.
 
